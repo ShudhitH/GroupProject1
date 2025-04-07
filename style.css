@@ -15,9 +15,55 @@ h1{
     text-align: center;
 }
 
-nav p {
-    display: inline-block;
-    justify-content: space-evenly;
-    text-align: justify;
-    text-justify: inter-word;
+nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding:10px;
+        border: 2px solid;
 }
+
+.menu{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:10px;
+    text-decoration: none;
+    padding:0.2em 0.6em;
+    border: 4px  #ccc;
+}
+
+.summary-box {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    word-wrap: break-word;
+    border-radius: 4%;
+    float: left;
+    clear:left;
+}
+.box:hover {
+    background-color: #e0e0e0;     /* Changes background color on hover */
+    border-color: #666;            /* Changes border color on hover */
+    transform: scale(1.05);        /* Slightly enlarges the box on hover */
+}
+
+#clearfix{
+    clear:both;
+    clear:left;
+}
+
+.details-box {
+    width: 700px;
+    height: 1200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    word-wrap: break-word;
+    border-radius: 4%;
+    float:right;
+
+}
+
+
