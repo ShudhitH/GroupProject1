@@ -1,0 +1,23 @@
+/*
+filename: style.css
+
+author: Toan Nguyen Nhu Duc
+
+created: 07/04/2025
+
+last modified: 07/04/2025
+
+description: The style file of the job.html
+*/
+
+h1{
+    background-color: beige;
+    text-align: center;
+}
+
+nav p {
+    display: inline-block;
+    justify-content: space-evenly;
+    text-align: justify;
+    text-justify: inter-word;
+}
