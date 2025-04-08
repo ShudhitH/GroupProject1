@@ -12,7 +12,7 @@ description: The style file of the job.html
 
 h1{
     background-color: beige;
-    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 nav{
@@ -32,38 +32,35 @@ nav{
     border: 4px  #ccc;
 }
 
-.summary-box {
-    width: 400px;
-    height: 200px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-    word-wrap: break-word;
+.small_description{
+    display: inline-block;
+    text-decoration: none;
+    padding:0.2em 0.6em;
+    background-color: #cdced1;
     border-radius: 4%;
-    float: left;
-    clear:left;
-}
-.box:hover {
-    background-color: #e0e0e0;     /* Changes background color on hover */
-    border-color: #666;            /* Changes border color on hover */
-    transform: scale(1.05);        /* Slightly enlarges the box on hover */
 }
 
-#clearfix{
-    clear:both;
-    clear:left;
+#Soft_Dev,#Web_Designer{
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.details-box {
-    width: 700px;
-    height: 1200px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-    word-wrap: break-word;
-    border-radius: 4%;
+aside,footer{
+    font-style: italic;
+    font-size: small;
+}
+
+aside{
+    border:3px inset gray;
+    border-radius: 5%;
+    margin: 1em;
+    padding : 1em;
+    width:25%;
     float:right;
-
+    box-shadow: 12px 12px 2px 1px gray;
 }
 
+footer{
+    border-top: 4px double navy;
+    clear:both;
+}
 
