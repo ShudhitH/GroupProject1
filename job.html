@@ -6,26 +6,29 @@
     <meta name ="description" content = "Job description for Software and Website Designer">
     <meta name ="keyword" content= "Jobs, Software Developer, Website Desginer, Front-end, Back-end, Description ">
     <meta name = "author"  content ="Duc Toan">
-    <link href="style.css" rel = 'stylesheet'>
+    <link href="styles/style.css" rel = 'stylesheet'>
     <title>Job Description</title>
 </head>
 <body>
-
-        <nav>
-        <p class = "menu"><a href = ""> Home </a></p>
-        <p class = "nenu"><a href = ""> Job description</a></p>  
-        <p class = "menu"><a href = ""> Job applications </a></p>
-        <p class = "nenu"><a href = ""> About </a></p>  
+    <!--The menu contains four elements including this website as well!-->
+    <nav>
+        <p class = "menu"><a href = "project1/index.html"> Home </a></p>
+        <p class = "nenu"><a href = "project1/jobs.html"> Job description</a></p>  
+        <p class = "menu"><a href = "project1/apply.html"> Job applications </a></p>
+        <p class = "nenu"><a href = "project1/about.html"> About </a></p>  
     </nav>  
 
     <section id = "#Soft_Dev">
-        
+        <!--Name and the logo(add later!) of our company-->
         <h4 id="company_name">TNSS.com</h4>
-        <h1><strong> Software Developer</strong></h1>
-        <div>
+        <h1><strong> Software Developer</strong></h1> <!--Position title-->
+
+        <div> <!--Small boxes contain summarize details about the salary, requirements for the position-->
             <p class="small_description">Full time</p>
             <p class ="small_description">2-3 years experience</p>
+            <p class ="small_description">75000&#36;-85000&#36; a year</p>
         </div>
+
         <p>We&apos;re seeking a passionate Software Developer to design, develop, and maintain software applications, working closely with cross-functional teams to deliver high-quality solutions.</p>  
         <h3><strong> Job summary: </strong> </h3>
         <!--This part's content was created by ChatGPT-->
@@ -44,9 +47,12 @@
             <li>Continuously learn and implement emerging technologies to improve system efficiency.</li>
             <li>Ensure software is developed in accordance with security and compliance standards.</li>
         </ul>
+
         <p><strong> Required Qualifications, Skills, Knowledge, and Attributes: </strong></p>
+
         <p><strong> Essential: </strong></p>
-        <ul>
+        <ul class="mandatory">
+
             <li>Bachelor&apos;s degree in Computer Science, Software Engineering, or related field (or equivalent practical experience).</li>
             <li>Proven experience in software development (minimum 3 years).</li>
             <li>Proficiency in programming languages such as Java, C#, Python, JavaScript, or similar.</li>
@@ -60,20 +66,9 @@
             <li>Strong attention to detail and a commitment to producing high-quality software.</li>
         </ul>
 
-        
-    <aside> 
-        <p><strong>Quick tips:</strong></p>
-            <ol>
-                <li>Tailor Your Resume &amp; Try to write a Strong Cover Letter</li>
-                <li>Use Keywords &amp; Highlight Achievements</li>
-                <li>Reserch the company that you gonna apply !</li>
-                <li>Proofread and prepare for the interview!</li>
-                <li>Keep a positive attitude and checking your emails for interview!</li>
-            </ol>
-    </aside>
 
         <p><strong> Preferable : </strong></p>
-        <ul>
+        <ul class ="optional">
             <li>Experience with cloud platforms (AWS, Azure, etc.).</li>
             <li>Familiarity with containerization technologies (Docker, Kubernetes).</li>
             <li>Experience with Agile development methodologies (Scrum, Kanban).</li>
@@ -85,7 +80,7 @@
         </ul>
 
         <p><strong> Benefits: </strong></p>
-            <ul>
+            <ul class = "benefits">
                 <li>Competitive salary and benefits package</li>
                 <li>Opportunities for professional development and training</li>
                 <li>Collaborative and creative work environment.</li>
@@ -95,7 +90,7 @@
 
     </section>
 
-    <p> If you&apos;re passionate about creating innovative software solutions and have a strong technical background, we encourage you to apply and join our growing development team by apply <a><strong>here</strong></a> </p>
+    <p> If you&apos;re passionate about creating innovative software solutions and have a strong technical background, we encourage you to apply and join our growing development team by apply <a><strong>here</strong></a> </p> <!--Another way for user to move to the application webpage-->
     
     <br>
 
@@ -104,6 +99,7 @@
         <div>
             <p class="small_description">Full time</p>
             <p class ="small_description">2-3 years experience</p>
+            <p class ="small_description">72000&#36;-80000&#36; a year</p>
         </div>
         <p>We&apos;re looking for a creative Web Designer to create visually appealing, user-friendly websites and collaborate with developers to bring designs to life. You'll work with clients or teams to turn requirements into stunning, functional websites.</p>    
         <h3><strong> Job summary: </strong> </h3>
@@ -125,8 +121,8 @@
         </ul>
         
         <p><strong> Required Qualifications, Skills, Knowledge, and Attributes: </strong></p>
-        <p><strong> Essential: </strong></p>
-        <ul>
+        <p ><strong> Essential: </strong></p>
+        <ul class="mandatory">
             <li>Proven experience as a web designer, UI/UX designer, or similar role.</li>
             <li>Proficiency in design software such as Adobe Creative Suite (Photoshop, Illustrator, XD), Sketch, Figma, or similar tools.</li>
             <li>Solid understanding of HTML, CSS, and responsive design principles.</li>
@@ -136,9 +132,9 @@
             <li>Excellent communication and collaboration skills.</li>
             <li>Ability to prioritize and manage multiple projects in a fast-paced environment. </li>
         </ul>
-        
+        <!--A small aside which contains a few quick tips for the appliers-->
         <aside> 
-            <p><strong>Quick tips:</strong></p>
+            <p ><strong>Quick tips:</strong></p>
                 <ol>
                     <li>Tailor Your Resume &amp; Try to write a Strong Cover Letter</li>
                     <li>Use Keywords &amp; Highlight Achievements</li>
@@ -149,7 +145,7 @@
         </aside>
 
         <p><strong> Preferable: </strong></p>
-        <ul>
+        <ul class ="optional">
             <li>Knowledge of JavaScript, front-end frameworks, or web development tools.</li>
             <li>Experience with content management systems (CMS) like WordPress, Shopify, or similar platforms.</li>
             <li>Familiarity with SEO best practices for web design.</li>
@@ -157,7 +153,7 @@
 
             
             <p><strong> Benefits: </strong></p>
-            <ul>
+            <ul class = "benefits">
                 <li>Competitive salary and benefits package</li>
                 <li>Opportunities for professional development and training</li>
                 <li>Collaborative and creative work environment.</li>
@@ -165,8 +161,9 @@
         
     </section>
 
-    <p> If you&apos;re passionate about design and user experience, and you thrive in a dynamic, team-oriented environment, we encourage you to apply for this exciting opportunity in <a><strong>here</strong></a> </p>
-    
+    <p> If you&apos;re passionate about design and user experience, and you thrive in a dynamic, team-oriented environment, we encourage you to apply for this exciting opportunity in <a><strong>here</strong></a> </p> <!--Another way for user to move to the application webpage-->
+    <br>
+    <!--The name of our company-->
     <footer>&copy;TechNetwork Software Solutions </footer>
 </body>
 </html>
