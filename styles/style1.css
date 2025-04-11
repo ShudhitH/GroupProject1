@@ -234,3 +234,24 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/*
+Filename: style.css
+
+Author: Shudhit Hemrajani
+
+Created: 09/04/2025
+
+Last modified: 11/04/2025 11:12AM
+
+Description: The style file of the about.html
+*/
+
+.student-ids {
+    text-align: left;
+    margin-right: 40px;
+    list-style-position: inside;
+}
+#id {
+    float: right;
+}
