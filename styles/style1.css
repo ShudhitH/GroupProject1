@@ -11,26 +11,60 @@ description: The style file of the job.html
 */
 
 /* Changing the heading font, color by using shorthand font property*/
-h1{
+body {
     background-color: beige;
-    font: normal 40px Times;
-}
-
-nav{
-    display: flex; 
-    justify-content: space-around;/*Allocate the nav element to divide equally*/
-    align-items: center; /* Move items to the center of the nav */
-    border: 2px solid; /* create Border for the menu*/
-    background: url(images/navy_background.jpg) repeat-x right;   /*Change the background color to fit with the theme*/
-}
-
-nav a{color:beige;} /*Constrast with the background color*/
-
-.menu{   /*The style sets for the menu elements */
-    font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
+    color: navy;
+}
+
+h1{
+    background-color: navy;
+    font: normal 40px Times;
+    color:white
+}
+
+header{
+    background-color: navy; 
+    color:white;
+    padding: 20px 0;
+}
+
+.header-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.logo{
+    width:170px;
+    height: auto;
+}
+
+nav {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: navy;
     text-decoration: none;
-    padding:0.2em 0.6em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #ff9900;
+    border-radius: 5px;
 }
 
 .content_box{
@@ -38,6 +72,9 @@ nav a{color:beige;} /*Constrast with the background color*/
     width:50%;
     border: 2px solid navy;
     box-shadow: 10px 2px 2px 2px tan;
+    padding: 10px 10px;
+    margin: 7px;
+    color:navy;
 }
 
 /*Create small box for summarize details for the job-description */
@@ -70,6 +107,18 @@ footer{
     border-top: 4px double navy;
     clear:both;/*Make sure that the footer will stand in a single line without touching anything , i.e the logo of the company */
     text-align: center; /* Move all the text to the CENTER of the footer*/
+    background-color: navy;
+    color:white;
+}
+
+footer a{
+    color:#ff9900;
+    text-decoration: none;
+
+}
+
+footer a:hoer{
+    text-decoration: underline;
 }
 
 ol li:first-child{float: left;} /*Make the odd numbers float to the left side , even numbers float to the right side*/
