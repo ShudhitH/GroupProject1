@@ -11,9 +11,36 @@ description: The style file of the job.html
 */
 
 /* Changing the heading font, color by using shorthand font property*/
-h1{
-    background-color: navy;
-    font: normal 40px Times;
+
+.box_header{
+    font: normal 50px Times;
+    color:navy;
+
+}
+
+header{
+    background-color: navy; 
+    color:white;
+    padding: 20px 0;
+}
+
+.header-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.logo{
+    width:170px;
+    height: auto;
+}
+
+nav {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid;
 }
 
 nav{
@@ -21,23 +48,33 @@ nav{
     justify-content: space-around;/*Allocate the nav element to divide equally*/
     align-items: center; /* Move items to the center of the nav */
     border: 2px solid; /* create Border for the menu*/
-
 }
 
-nav a{color:beige;} /*Constrast with the background color*/
-
-.menu{   /*The style sets for the menu elements */
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+nav a {
+    color: navy;
     text-decoration: none;
-    padding:0.2em 0.6em;
+    font-weight: bold;
+    padding: 10px;
 }
 
-.content_box{
+nav a:hover { /*Make the element change to organe when the mouse hover*/
+    background-color: #ff9900;
+    border-radius: 5px;
+}
+
+.content_box{ /*Create the box for different sections*/
     height: 40%;
-    width:50%;
+    width:99%;
     border: 2px solid navy;
     box-shadow: 10px 2px 2px 2px tan;
+    padding: 20px 20px;
+    margin: 7px;
+    color:navy;
+}
+
+ul{ /*Aligning the list elements*/
+    padding: 10px 40px;
+    margin: 7px;
 }
 
 /*Create small box for summarize details for the job-description */
@@ -70,6 +107,20 @@ footer{
     border-top: 4px double navy;
     clear:both;/*Make sure that the footer will stand in a single line without touching anything , i.e the logo of the company */
     text-align: center; /* Move all the text to the CENTER of the footer*/
+    background-color: navy;
+    color:white;
+}
+
+
+
+footer a{
+    color:#ff9900;
+    text-decoration: none;
+
+}
+
+footer a:hoer{
+    text-decoration: underline;
 }
 
 ol li:first-child{float: left;} /*Make the odd numbers float to the left side , even numbers float to the right side*/
@@ -91,10 +142,15 @@ ol li:last-child{float: left;}
     list-style-type:upper-roman; /* Make benefits's bullet points become Roman Number and the Key Responsibilities are normal bullet points */
 }
 
-#programming_language_logo{
-    height: 70px;
-    width: 70px;
-}
+#program_logo {
+    display: flex;           /* Makes images line up horizontally */
+    gap: 10px;               /* Optional: space between images */
+    align-items: center;
+    float:right;     /* Optional: vertical alignment */
+  }
+  #program_logo img {
+    max-height: 150px;       /* Adjust as needed */
+  }
 
 /*
 filename: styles.css
