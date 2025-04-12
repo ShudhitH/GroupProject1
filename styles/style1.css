@@ -239,3 +239,77 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/*
+Filename: style.css
+
+Author: Shudhit Hemrajani
+
+Created: 09/04/2025
+
+Last modified: 12/04/2025 3:56PM
+
+Description: The style file of the about.html
+*/
+
+.student-ids {
+    text-align: left;
+    margin-right: 40px;
+    list-style-position: inside;
+}
+
+#id {
+    float: right;
+}
+
+.about-head {
+    font-size: 2.5em;
+    margin: 0; /* Removes top and bottom margin */
+    text-align: center; /* Centers text horizontally */
+}
+
+.group-img {
+    float: right;
+    margin: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.group-img figcaption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.group-img img {
+    border: 2px solid #333;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.interests {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.interests th {
+    font-weight: bold;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.interests td {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: normal;
+    transition: background-color 0.3s ease;
+}
+
+/* Apply hover effect only to td, not the entire row */
+.interests td:hover {
+    background-color: #cceeff;
+}
