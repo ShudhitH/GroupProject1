@@ -313,3 +313,10 @@ Description: The style file of the about.html
 .interests td:hover {
     background-color: #cceeff;
 }
+
+.table-title {
+    text-align: center;
+    width: 80%;
+    margin: 20px auto 10px auto;
+    font-weight: bold;
+}
