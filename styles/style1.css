@@ -91,6 +91,11 @@ ol li:last-child{float: left;}
     list-style-type:upper-roman; /* Make benefits's bullet points become Roman Number and the Key Responsibilities are normal bullet points */
 }
 
+#programming_language_logo{
+    height: 70px;
+    width: 70px;
+}
+
 /*
 filename: styles.css
 
