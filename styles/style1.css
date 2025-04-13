@@ -377,6 +377,18 @@ Description: The style file of the about.html
     font-weight: bold;
 }
 
+.group-profile-box {
+    border: 2px solid navy;
+    background-color: #f0f8ff;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
 /*
 
 filename: styles.css
