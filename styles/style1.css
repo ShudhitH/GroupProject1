@@ -376,3 +376,113 @@ Description: The style file of the about.html
     margin: 20px auto 10px auto;
     font-weight: bold;
 }
+
+/*
+
+filename: styles.css
+
+author: Nicholas Kan
+
+created: 09/04/2025 
+
+last modified: 13/04/2025 
+
+description: lThe style file of apply.html
+
+*/
+
+main {
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #ff9900;
+    border-radius: 5px;
+}
+
+/* Body and Global Styles */
+
+body {
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+}
+
+/* Header Styles */
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 170px;
+    height: auto;
+}
+
+.header-text h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header-text p {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+footer{
+    border-top: 4px double navy;
+    clear: both;
+    text-align: center; 
+    background-color: navy;
+    color: white;
+    font-style: italic;
+    font-size: small;
+}
+
+footer a{
+    color:#ff9900;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.job-app {
+    float: right;
+}
+
+.skills {
+    max-width: 1200px;
+}
