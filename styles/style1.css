@@ -376,3 +376,122 @@ Description: The style file of the about.html
     margin: 20px auto 10px auto;
     font-weight: bold;
 }
+
+.group-profile-box {
+    border: 2px solid navy;
+    background-color: #f0f8ff;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*
+
+filename: styles.css
+
+author: Nicholas Kan
+
+created: 09/04/2025 
+
+last modified: 13/04/2025 
+
+description: lThe style file of apply.html
+
+*/
+
+.main-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto; 
+}
+
+nav {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #ff9900;
+    border-radius: 5px;
+}
+
+/* Body and Global Styles */
+
+body {
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+}
+
+/* Header Styles */
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 170px;
+    height: auto;
+}
+
+footer{
+    border-top: 4px double navy;
+    clear: both;
+    text-align: center; 
+    background-color: navy;
+    color: white;
+    font-style: italic;
+    font-size: small;
+}
+
+footer a{
+    color:#ff9900;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.job-app {
+    float: right;
+}
+
+.skills {
+    max-width: 1200px;
+}
+
+/* design for submit button, AI generated */
+
+.submit {
+    background-color: #031f54;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
