@@ -397,7 +397,10 @@ description: lThe style file of apply.html
     gap: 15px;
     padding: 20px;
     max-width: 800px;
-    margin: auto; 
+    margin: 30px auto; 
+    border: 2px solid black;
+    text-align: center;
+    box-shadow: 10px 2px 2px 2px tan;
 }
 
 nav {
@@ -465,15 +468,11 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.job-app {
-    float: right;
-}
-
 .skills {
     max-width: 1200px;
 }
 
-/* design for submit button, AI generated */
+/* Design for submit button, AI generated */
 
 .submit {
     background-color: #031f54;
@@ -482,4 +481,4 @@ footer a:hover {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
+}
