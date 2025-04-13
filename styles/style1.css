@@ -309,47 +309,47 @@ Description: The style file of the about.html
 */
 
 .student-ids {
-    text-align: left;
-    margin-right: 40px;
-    list-style-position: inside;
+    text-align: left; /* Places the text in the list to the left */
+    margin-right: 40px; /* Adding space to the right of the list */
+    list-style-position: inside; /* Ensuring the bullet points are visivble */
 }
 
 #id {
-    float: right;
+    float: right; /* Moving the student id towards the right */
 }
 
 .about-head {
-    font-size: 2.5em;
+    font-size: 2.5em; /* Making the current font size 2.5x larger then current (em) */
     margin: 0; /* Removes top and bottom margin */
     text-align: center; /* Centers text horizontally */
 }
 
 .group-img {
-    float: right;
-    margin: 20px;
-    text-align: center;
+    float: right; /* Floating the image towards the right of the page */
+    margin: 20px; /* Creating a margin of 20 pixels of all sides of the image */
+    text-align: center; /* Centering the text, the figcaption */
     max-width: 300px;
 }
 
 .group-img figcaption {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-size: 1.5em; /* Making the caption 1.5x larger then current size */
+    font-weight: bold; /* Making the text bold */
+    margin-bottom: 10px; /* Adding 10 pixel margin from bottom */
 }
 
 .group-img img {
-    border: 2px solid #333;
-    max-width: 100%;
-    height: auto;
-    display: block;
+    border: 2px solid #333; /* adding a solid dark border across the images, size is 2 pixels */
+    max-width: 100%; /* not allowing the image to stretch */
+    height: auto; /* ensuring the original aspect ratio stays the same */
+    display: block; /* allowing proper flow, AI generated, assitance */
 }
 
 .interests {
-    margin: 0 auto;
-    border-collapse: collapse;
+    margin: 0 auto; /* centering the table with setting the margins to be auto */
+    border-collapse: collapse; /* removes spacing from borders */
     width: 80%;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; /* setting font to be times new roman */
 }
 
 .interests th {
@@ -358,11 +358,12 @@ Description: The style file of the about.html
     padding: 10px;
 }
 
+/* Had issue coudln't resolve, generated assisted by AI */
 .interests td {
     background-color: #f0f0f0;
     padding: 10px;
     font-weight: normal;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; /* adds smooth tranisiton effect when hovering */
 }
 
 /* Apply hover effect only to td, not the entire row */
@@ -386,7 +387,7 @@ Description: The style file of the about.html
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* AI generated, adds a shadow effect for a lifted box appearance */
 }
 
 /*
