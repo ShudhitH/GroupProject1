@@ -325,10 +325,23 @@ Description: The style file of the about.html
 }
 
 .group-img {
-    float: right; /* Floating the image towards the right of the page */
-    margin: 20px; /* Creating a margin of 20 pixels of all sides of the image */
-    text-align: center; /* Centering the text, the figcaption */
-    max-width: 300px;
+    margin: 20px; /* Keeps the image with 20px margin */
+    max-width: 300px; /* Ensures the image doesn’t overflow */
+}
+
+.group-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns image to the right */
+    text-align: center;
+    gap: 10px; /* Optional: adds space between image and caption */
+}
+
+/* Clear the float in parent container to avoid layout collapse */
+.group-image-container::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .group-img figcaption {
@@ -338,10 +351,11 @@ Description: The style file of the about.html
 }
 
 .group-img img {
-    border: 2px solid #333; /* adding a solid dark border across the images, size is 2 pixels */
-    max-width: 100%; /* not allowing the image to stretch */
-    height: auto; /* ensuring the original aspect ratio stays the same */
-    display: block; /* allowing proper flow, AI generated, assitance */
+    border: 2px solid #333; /* Adds a solid dark border around the image */
+    max-width: 100%; /* Ensures the image doesn't stretch beyond its container */
+    height: auto; /* Maintains the original aspect ratio */
+    display: block; /* Prevents inline display issues */
+    margin: 0 auto; /* Centers the image horizontally */
 }
 
 .interests {
@@ -376,6 +390,12 @@ Description: The style file of the about.html
     width: 80%;
     margin: 20px auto 10px auto;
     font-weight: bold;
+}
+
+.interests,
+.interests th,
+.interests td {
+    border: 1px solid black; /* Adds the table border */
 }
 
 .group-profile-box {
