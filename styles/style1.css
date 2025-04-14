@@ -48,7 +48,6 @@ nav{
     justify-content: space-around;/*Allocate the nav element to divide equally*/
     align-items: center; /* Move items to the center of the nav */
     border: 2px solid; /* create Border for the menu*/
-    background: url(images/navy_background.jpg) repeat-x right;   /*Change the background color to fit with the theme*/
 }
 
 nav a {
