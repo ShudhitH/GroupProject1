@@ -337,13 +337,6 @@ Description: The style file of the about.html
     gap: 10px; /* Optional: adds space between image and caption */
 }
 
-/* Clear the float in parent container to avoid layout collapse */
-.group-image-container::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .group-img figcaption {
     font-size: 1.5em; /* Making the caption 1.5x larger then current size */
     font-weight: bold; /* Making the text bold */
