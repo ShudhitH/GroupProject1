@@ -485,7 +485,8 @@ footer a:hover {
     max-width: 1200px;
 }
 
-/* Design for submit button, AI generated */
+/* Design for submit button, AI generated 
+    Prompt: Design a submit button with CSS saying 'apply' */
 
 .submit {
     background-color: #031f54;
