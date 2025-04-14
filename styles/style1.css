@@ -5,7 +5,7 @@ author: Toan Nguyen Nhu Duc
 
 created: 07/04/2025
 
-last modified: 09/04/2025
+last modified: 14/04/2025
 
 description: The style file of the job.html
 */
@@ -48,6 +48,7 @@ nav{
     justify-content: space-around;/*Allocate the nav element to divide equally*/
     align-items: center; /* Move items to the center of the nav */
     border: 2px solid; /* create Border for the menu*/
+    background: url(images/navy_background.jpg) repeat-x right;   /*Change the background color to fit with the theme*/
 }
 
 nav a {
@@ -104,7 +105,7 @@ aside{
 }
 /*Border to differentitate the content and the footer element*/
 footer{
-    border-top: 4px double #fff;
+    border-top: 4px double navy;
     clear:both;/*Make sure that the footer will stand in a single line without touching anything , i.e the logo of the company */
     text-align: center; /* Move all the text to the CENTER of the footer*/
     background-color: navy;
@@ -142,13 +143,13 @@ ol li:last-child{float: left;}
     list-style-type:upper-roman; /* Make benefits's bullet points become Roman Number and the Key Responsibilities are normal bullet points */
 }
 
-#program_logo {
+.program_logo {
     display: flex;           /* Makes images line up horizontally */
-    gap: 10px;               /* Optional: space between images */
+    gap: 10px;               
     align-items: center;
-    float:right;     /* Optional: vertical alignment */
+    float:right;     
   }
-  #program_logo img {
+.program_logo img {
     max-height: 150px;       /* Adjust as needed */
   }
 
