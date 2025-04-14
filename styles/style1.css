@@ -5,7 +5,7 @@ author: Toan Nguyen Nhu Duc
 
 created: 07/04/2025
 
-last modified: 09/04/2025
+last modified: 14/04/2025
 
 description: The style file of the job.html
 */
@@ -120,7 +120,7 @@ footer a{
 
 }
 
-footer a:hoer{
+footer a:hover{
     text-decoration: underline;
 }
 
@@ -143,13 +143,13 @@ ol li:last-child{float: left;}
     list-style-type:upper-roman; /* Make benefits's bullet points become Roman Number and the Key Responsibilities are normal bullet points */
 }
 
-#program_logo {
+.program_logo {
     display: flex;           /* Makes images line up horizontally */
-    gap: 10px;               /* Optional: space between images */
+    gap: 10px;               
     align-items: center;
-    float:right;     /* Optional: vertical alignment */
+    float:right;     
   }
-  #program_logo img {
+.program_logo img {
     max-height: 150px;       /* Adjust as needed */
   }
 
